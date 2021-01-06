@@ -43,7 +43,6 @@ header ul li a{
 .half-width{
     width: 40%;
     float: left;
-    border: 1px solid red;
     margin-left: 5%;
     padding-left: 2%;
 
@@ -80,4 +79,121 @@ header ul li a{
     color: tomato;
     transition-duration: 2s;
 
+}
+
+.a-text{
+    font-size: 30px;
+}
+
+section{
+    height: 700px;
+}
+
+/* Third section */
+
+.three-section{
+    height: 900px;
+    background-color: rgb(233, 231, 238);
+    
+}
+
+
+.one-third{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.latest-work{
+    text-align: center;
+    padding: 100px ;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.one-third h2{
+    color: rgb(21, 2, 53);
+    font-size: 30px;
+}
+
+.footer-banner{
+height: 500px;
+
+}
+ .footer-b{
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    background-image: url("images/footer-banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.footer-banner img{
+    width: 100%;
+    text-align: center;
+}
+
+
+.work-inguiry{
+    width: 65%;
+    float: left;
+}
+
+.work{
+    margin-top: 70px;
+    font-size: 60px;
+    padding: 2%;
+    color: rgb(233, 231, 238);
+    text-transform: uppercase;
+}
+
+.chat-button{
+    width: 25%;
+    float: left;
+}
+
+.chat-btn{
+    font-size: 20px;
+    padding: 15px 25px;
+    color: rgb(235, 226, 226);
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 5px;
+    border:none;
+    display: block;
+    margin: auto;
+    margin-top: 90px;
+
+
+}
+
+footer h4, footer h3{
+    text-align: center;
+    margin: 0;
+}
+
+footer h3{
+    font-size: 40px;
+}
+
+footer h4{
+    font-size: 30px;
+}
+
+.icon{
+    display: flex;
+    justify-content:center;
+}
+.icon img{
+    width: 40px;
+    padding: 20px;
+    margin: 0;
+    
 }
